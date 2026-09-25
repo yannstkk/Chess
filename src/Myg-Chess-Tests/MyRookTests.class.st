@@ -55,7 +55,7 @@ MyRookTests >> testMovesWithSameColorObstacle [
 
 	"Rooks don't jump above pieces"
 	"And they don't eat pieces of the same color either"
-	"Let's put a white obstacle on g4, blocking the f rank"
+	"Let's put a white obstacle on g4, blocking the f rank" 
 	board at: 'g4' put: MyRook black.
 
 	squares := bishop targetSquares.
