@@ -57,12 +57,6 @@ MyPawn >> id [
 	^ 'P'
 ]
 
-{ #category : 'rendering' }
-MyPawn >> renderPieceOn: aSquare [
-
-	^ aSquare renderPawn: self
-]
-
 { #category : 'accessing' }
 MyPawn >> startingFile [
 

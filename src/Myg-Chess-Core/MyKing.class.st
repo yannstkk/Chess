@@ -70,12 +70,6 @@ MyKing >> opponentPieces [
 ]
 
 { #category : 'rendering' }
-MyKing >> renderPieceOn: aSquare [
-
-	^ aSquare renderKing: self
-]
-
-{ #category : 'rendering' }
 MyKing >> targetSquaresLegal: aBoolean [
 	"The king cannot move to threatened squares"
 
